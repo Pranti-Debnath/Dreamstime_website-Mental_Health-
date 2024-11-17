@@ -1,0 +1,81 @@
+.heading {
+    text-align: center;
+    text-shadow: #3b3a67;
+    text-transform: uppercase;
+    color:#df86b1 ;
+    font-size: 5rem;
+    letter-spacing: .1rem;
+}
+.about .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:2rem;
+    background: #fcebfa;
+}
+
+.about .row .image{
+    flex:1 1 45rem;
+}
+
+.about .row .image img{
+    width: 95%;
+}
+
+.about .row .content{
+    flex:1 1 45rem;
+}
+
+.about .row .content h3{
+    color:#df86b1 ;
+    
+    padding-left: 3rem;
+    font-size: 3rem;
+    line-height: 1.8;
+}
+
+.about .row .content p{
+    color: #000000;
+    padding-left:3rem ;
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    line-height: 1.8;
+}
+.name{
+    font-family: 'Kanit', sans-serif;
+    font-weight: 600;
+    font-size: 29px;
+}
+.logo{
+    height: 64px;
+    width: 73px;
+}
+.navarea{
+    height: 74px;
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+ul#menu{
+    margin: 29px auto;
+    padding: 0px;
+    display: flex;
+    width: 755px;
+    
+}
+ul#menu li{
+    list-style: none;
+    display: inline-block;
+    margin: auto;
+}
+ul#menu li a{
+    text-decoration: none;
+    color: rgb(53, 49, 49);
+    font-size: 25px;
+    padding: 26px;
+
+}
+ul#menu li a:hover{
+    color: rgb(41, 41, 146);
+    cursor: pointer;
+}

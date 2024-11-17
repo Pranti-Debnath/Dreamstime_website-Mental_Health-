@@ -1,0 +1,109 @@
+.name{
+    font-family: 'Kanit', sans-serif;
+    font-weight: 600;
+    font-size: 29px;
+}
+.logo{
+    height: 64px;
+    width: 73px;
+}
+.navarea{
+    height: 74px;
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+ul#menu{
+    margin: 29px auto;
+    padding: 0px;
+    display: flex;
+    width: 755px;
+    
+}
+ul#menu li{
+    list-style: none;
+    display: inline-block;
+    margin: auto;
+}
+ul#menu li a{
+    text-decoration: none;
+    color: rgb(53, 49, 49);
+    font-size: 25px;
+    padding: 26px;
+
+}
+ul#menu li a:hover{
+    color: rgb(41, 41, 146);
+    cursor: pointer;
+}
+
+.heading {
+    text-align: center;
+    text-shadow: #3b3a67;
+    text-transform: uppercase;
+    color:#9c1657 ;
+    font-size: 5rem;
+    letter-spacing: .1rem;
+}
+
+.review .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+    gap:2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.review .box-container .box{
+    border:#000;
+    border-radius: .5rem;
+    padding:2.5rem;
+    background:#be8caa;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.review .box-container .box img{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    object-fit: cover;
+    border:.5rem solid #fff;
+}
+
+.review .box-container .box h3{
+    color:#000;
+    font-size: 2.2rem;
+    padding:.5rem 0;
+}
+
+.review .box-container .box .stars i{
+    color: rgb(239, 209, 87);;
+    font-size: 1.5rem;
+}
+
+.review .box-container .box .text{
+    color:var(--light-color);
+    line-height: 1.8;
+    font-size: 1.6rem;
+    padding-top: 4rem;
+}
+
+.review .box-container .box::before{
+    content: '';
+    position: absolute;
+    top:-4rem; left: 50%;
+    transform:translateX(-50%);
+    background:var(--green);
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    height: 25rem;
+    width: 120%;
+    z-index: -1;
+}
+.hyperlink{
+    text-decoration: none;
+    color: black;
+}
