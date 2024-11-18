@@ -1,4 +1,4 @@
-DREAMSTIME is a website about mental health related issue.
+#DREAMSTIME is a website about mental health related issue.
 This website was created with a view to provide the users with precise mental
 health related information and professional help. This website was created as user
 friendly and easy as possible keeping in mind of the various types of mental health
